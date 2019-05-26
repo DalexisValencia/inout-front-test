@@ -1,8 +1,14 @@
-# FrontTest
+# Prueba Front 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
+Esta es una prueba generada para la empresa marketmix, conciste en una tienda simple con un responsive.
+Añadiendo y eliminando items del carrito.
 
 ![alt text](https://github.com/DalexisValencia/inout-front-test/blob/master/Presentation/Escritorio-1.png)
+![alt text](https://github.com/DalexisValencia/inout-front-test/blob/master/Presentation/Escritorio-2.png)
+![alt text](https://github.com/DalexisValencia/inout-front-test/blob/master/Presentation/Mobile-1.png)
+![alt text](https://github.com/DalexisValencia/inout-front-test/blob/master/Presentation/Mobile-2.png)
+
 
 ## Development server
 
