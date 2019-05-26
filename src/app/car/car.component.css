@@ -1,0 +1,67 @@
+.summary-pay{
+	max-height: 200px;
+	float:right;
+}
+.container-summary{
+	background-color: #fff;
+	padding:10px 20px;
+}
+.container-summary h4{
+	color:#009973;
+}
+.container-summary ul li{
+ 	list-style: none;
+ 	color: #595959;
+}	
+button.btn.btn-primary.btn-sm{
+	width: 100%;
+	border-radius: 0px;
+	background-color: #009973;
+	border-color: #009973;
+}
+button.btn.btn-primary.btn-sm:active,
+button.btn.btn-primary.btn-sm:visited{
+	background-color: #009973;
+	border-color: #009973;
+}
+.car-card-product{
+	border:1px solid #ddc;
+	padding:0px;
+	margin-bottom:10px;
+	background-color: #fff;
+}
+.container-car-product{
+	position:relative;
+	display:flex;
+}
+figure{
+	width:150px;
+	float:left
+}
+figure img{
+	width:100%;
+}
+.actions{
+	float:right;
+	width:68%;
+	padding:20px 10px;
+	margin-top:8px;
+}
+.actions h3{
+	display:inline;
+	color:#828282;
+}
+
+button.btn.btn-default.btn-sm{
+	float:right;
+	border-color:transparent;
+	background-color:transparent;
+	font-size:14px;
+	color:#990000;
+	font-weight:bold;
+}
+
+div.price{
+	font-size:12px;
+	color: #949292;
+}

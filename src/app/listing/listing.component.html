@@ -1,0 +1,31 @@
+<section class="container">
+	<div class="alert" *ngIf="!products">
+		Cargando Productos...
+	</div>
+
+	<div class="added-product" *ngIf="alert_added">
+		¡El Producto '{{currentProName}}' se ha Añadido con exito!
+	</div>	
+
+	<div *ngIf="products" class="row">
+		<article *ngFor="let product of prods" class="col-xs-12 col-sm-4 col-md-3 card-product" id="product-{{product.id}}">
+			<div class="container-product">
+				<figure>
+					<img src="{{product.url}}"/>
+				</figure>
+				<div class="actions-product">
+					<h5>{{product.title}}</h5>
+					<button (click)="addToCar(product)" type="button" class="btn btn-default btn-sm">
+						<span class="glyphicon glyphicon-shopping-cart"></span>
+						Añadir
+					</button>
+				</div>
+				<footer>
+					{{product.price | currency}}
+				</footer>
+			</div>
+		</article>
+
+	</div>
+</section>
+

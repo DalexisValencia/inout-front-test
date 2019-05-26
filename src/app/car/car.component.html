@@ -1,0 +1,39 @@
+<section class="container">
+	<div class="alert" *ngIf="!CarProducts">
+		Cargando Productos...
+	</div>
+
+	<aside class="col-xs-12 col-sm-4 summary-pay">
+			<div class="container-summary">
+				<h4>Resumen</h4>
+				<ul>
+					<li>Total Productos: <b>{{CarProducts.length}}</b></li>
+					<li>Valor Total: <b>{{totalVal | currency }}</b></li>
+				</ul>
+			</div>
+		<button type="button" (click)="fakePay()" class="btn btn-primary btn-sm">
+			Ir a Pagar
+		</button>
+	</aside>
+
+	<div class="col-xs-12 col-sm-8">
+		<div class="col-xs-12 car-card-product" *ngFor="let prod of CarProducts; let ind = index">
+			<div class="container-car-product">
+				<figure>
+					<img src="/assets/home/product-default.png">
+				</figure>
+				<div class="actions">
+					<h3>{{prod.title}}</h3> 
+					<button type="button" class="btn btn-default btn-sm" (click)="remove(ind)">
+			          	<span class="glyphicon glyphicon-trash"></span> Eliminar. 
+			        </button>
+			        <div class="price">
+			        	{{prod.price | currency }}
+			        </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+</section>
