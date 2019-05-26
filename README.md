@@ -5,7 +5,7 @@ Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-
 Esta prueba conciste en una tienda con un responsive simple. Que permita `añadir` y `eliminar` productos al carrito. Almacenandolos en el storage de angular.
 
 ## Página Principal - Escritorio
-![alt text](https://github.com/DalexisValencia/inout-front-test/blob/master/Presentation/Escritorio-2.png).
+![alt text](https://github.com/DalexisValencia/inout-front-test/blob/master/Presentation/Escritorio-2.png)
 
 ## Carrito de compras - Escritorio
 ![alt text](https://github.com/DalexisValencia/inout-front-test/blob/master/Presentation/Escritorio-1.png)
